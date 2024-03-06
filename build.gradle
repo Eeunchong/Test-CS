@@ -2,13 +2,12 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '3.0.2'
     id 'io.spring.dependency-management' version '1.1.0'
-    id "org.sonarqube" version "4.4.1.3373"
+    id "org.sonarqube" version "3.3"
 }
-sonar {
-    properties {
-        property "sonar.projectKey", "Carry-A-Way_Career-Server_AYwyf8l2EqkAxc_3B7Ws"
-        property "sonar.projectName", "Career-Server"
-    }
+sonarqube {
+  properties {
+    property "sonar.projectKey", "Eeunchong_Test-CS"
+  }
 }
 
 group = 'com.example'
